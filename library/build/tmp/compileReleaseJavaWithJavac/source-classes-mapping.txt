@@ -1,7 +1,0 @@
-com/grizzlynt/reviews/GNTReviewPreferenceHelper.java
- com.grizzlynt.reviews.GNTReviewPreferenceHelper
-com/grizzlynt/reviews/GNTReviewManager.java
- com.grizzlynt.reviews.GNTReviewManager
- com.grizzlynt.reviews.GNTReviewManager$1
-com/grizzlynt/android/review/BuildConfig.java
- com.grizzlynt.android.review.BuildConfig
