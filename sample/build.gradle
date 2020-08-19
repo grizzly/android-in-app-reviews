@@ -6,8 +6,8 @@ android {
 
     defaultConfig {
         applicationId "com.grizzlynt.android.review"
-        minSdkVersion 9
-        targetSdkVersion 23
+        minSdkVersion 21
+        targetSdkVersion 29
         versionCode 1
         versionName "1.0"
     }
@@ -15,8 +15,9 @@ android {
 
 repositories {
     mavenCentral()
+    google()
 }
 
 dependencies {
-    compile project(':library')
+  api project(':library')
 }

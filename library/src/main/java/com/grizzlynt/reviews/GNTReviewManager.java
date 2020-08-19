@@ -11,12 +11,12 @@ import com.google.android.play.core.tasks.Task;
 
 import java.util.Date;
 
-import static com.grizzlynt.gntutils.reviews.GNTReviewPreferenceHelper.getInstallDate;
-import static com.grizzlynt.gntutils.reviews.GNTReviewPreferenceHelper.getLaunchTimes;
-import static com.grizzlynt.gntutils.reviews.GNTReviewPreferenceHelper.getRemindInterval;
-import static com.grizzlynt.gntutils.reviews.GNTReviewPreferenceHelper.isFirstLaunch;
-import static com.grizzlynt.gntutils.reviews.GNTReviewPreferenceHelper.setInstallDate;
-import static com.grizzlynt.gntutils.reviews.GNTReviewPreferenceHelper.setRemindIntervalDate;
+import static com.grizzlynt.reviews.GNTReviewPreferenceHelper.getInstallDate;
+import static com.grizzlynt.reviews.GNTReviewPreferenceHelper.getLaunchTimes;
+import static com.grizzlynt.reviews.GNTReviewPreferenceHelper.getRemindInterval;
+import static com.grizzlynt.reviews.GNTReviewPreferenceHelper.isFirstLaunch;
+import static com.grizzlynt.reviews.GNTReviewPreferenceHelper.setInstallDate;
+import static com.grizzlynt.reviews.GNTReviewPreferenceHelper.setRemindIntervalDate;
 
 
 public class GNTReviewManager {

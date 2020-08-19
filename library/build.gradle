@@ -9,6 +9,17 @@ android {
         targetSdkVersion 29
     }
 
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 }
 
 
+    repositories {
+        google();
+    }
+
+dependencies {
+  api 'com.google.android.play:core:1.8.0'
+}
