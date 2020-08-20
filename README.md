@@ -22,6 +22,12 @@ dependencies {
 }
 ```
 
+## Important
+
+Google encourages developers not to spam users with review requests right when they first start an app, instead asking studios to prompt people only after they've used the application for a while. Developers also shouldn't interrupt users in the middle of a task. After leaving a review or aborting, people should be able to continue whatever they were doing seamlessly.
+
+Android decides when and if such a review view will be presented to the user. So please do not wonder if the view is not presented during debugging. As Google also noted, it will not be working in debug mode. Please see https://developer.android.com/guide/playcore/in-app-review/test
+
 ## Usage
 
 ### Configuration
