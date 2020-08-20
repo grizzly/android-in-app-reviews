@@ -52,6 +52,10 @@ protected void onCreate(Bundle savedInstanceState) {
 }
 ```
 
+## Testing
+
+Testing can be done on testing tracks in Google Play — Internal Testing, Alpha, or Beta. Publish your app there and make sure that your current Google Account hasn’t reviewed the app yet. There are no quotas in testing tracks, so you will always see the dialog. If you send a rating, it won’t be added as a review but as a testing feedback.
+
 ## Contribute
 
 1. Fork it
