@@ -2,18 +2,24 @@
 
 [![](https://jitpack.io/v/grizzly/android-in-app-reviews.svg)](https://jitpack.io/#grizzly/android-in-app-reviews)
 
-# Step 1 Add the JitPack repository to your build file
+## Install
 
+### Step 1 Add the JitPack repository to your build file
+
+```groovy
 allprojects {
   repositories {
     maven { url 'https://jitpack.io' }
   }
 }
+```
 
-# Step 2 Add the dependency
+### Step 2 Add the dependency
 
+```groovy
 dependencies {
-  implementation 'com.github.grizzly:android-in-app-reviews:1.0.12'
+  implementation 'com.github.grizzly:android-in-app-reviews:{latest.version}'
 }
+```
   
   
