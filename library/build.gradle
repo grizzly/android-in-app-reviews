@@ -1,5 +1,12 @@
 apply plugin: 'com.android.library'
 
+repositories {
+    mavenCentral()
+    google()
+    jcenter()
+    maven { url "https://jitpack.io" }
+}
+
 android {
     
     compileSdkVersion 29
@@ -9,6 +16,12 @@ android {
         targetSdkVersion 29
     }
 
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
@@ -16,12 +29,20 @@ android {
 }
 
 
-    repositories {
-	jcenter();
-	maven { url 'https://jitpack.io' }
-        google();
-    }
-
 dependencies {
   api 'com.google.android.play:core:1.8.0'
+}
+
+task sourcesJar(type: Jar) {
+    classifier = 'sources'
+    from android.sourceSets.main.java.sourceFiles
+}
+
+task classesJar(type: Jar) {
+    from "$buildDir/intermediates/classes/release"
+}
+
+artifacts {
+    archives classesJar
+    archives sourcesJar
 }
