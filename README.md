@@ -2,6 +2,10 @@
 
 [![](https://jitpack.io/v/grizzly/android-in-app-reviews.svg)](https://jitpack.io/#grizzly/android-in-app-reviews)
 
+## Flutter Version
+
+https://pub.dev/packages/advanced_in_app_review
+
 ## Install
 
 ### Step 1 Add the JitPack repository to your build file
