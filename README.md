@@ -5,6 +5,7 @@
 ## Other Version
 
 Flutter: https://pub.dev/packages/advanced_in_app_review
+
 iOS: https://github.com/grizzly/AppRating
 
 ## Install
