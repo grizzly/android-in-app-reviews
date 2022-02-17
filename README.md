@@ -2,9 +2,10 @@
 
 [![](https://jitpack.io/v/grizzly/android-in-app-reviews.svg)](https://jitpack.io/#grizzly/android-in-app-reviews)
 
-## Flutter Version
+## Other Version
 
-https://pub.dev/packages/advanced_in_app_review
+Flutter: https://pub.dev/packages/advanced_in_app_review
+iOS: https://github.com/grizzly/AppRating
 
 ## Install
 
